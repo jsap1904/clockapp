@@ -1,6 +1,11 @@
 body {
 	text-align: center;
 	font-family: 'Palanquin Dark', sans-serif;
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
 
 }
 
@@ -13,30 +18,6 @@ i {
 	font-family: 'Indie Flower', cursive;
 }
 
-ul, ol {
-	list-style:none;
-}
-
-.sitenav {
-	display: inline-block;
-	float:right;
-	margin-right: 10%;
-	font-size: 15px;
-
-
-}
-.sitenav li {
-	display: inline-block;
-	margin-right: -4px;
-
-}
-.sitenav a {
-	color: red;
-	display:inline-block;
-	padding: 16px 20px;
-	text-decoration: none;
-
-}
 
 img {
 	    
@@ -44,25 +25,13 @@ img {
 	    width: 60px;
 }
 
-li.active a {
-	border-bottom: 3px solid red;
-	text-decoration: none;
-	font-family: 'Indie Flower', cursive;
-	font-weight: bolder;
-	font-size: 25px;
-
-}
-
-.sitenav a:hover {
-	border-bottom: 3px solid red;
-	cursor: pointer;
-}
 
 
 #time {
-	margin-right: 200px;
-	font-size: 20px;
+	font-size: 40px;
 	color: red;
+	display: inline-block;
+	margin: auto;
 
 }
 
@@ -70,11 +39,11 @@ li.active a {
 /*analog clock*/
 
 :root {
-	--size: 500px;
+	--size: 260px;
 }
 
 #clock {
-	left: 430px;
+	
 	text-align: center;
 	width: var(--size);
 	height: var(--size);
@@ -87,6 +56,7 @@ li.active a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-weight: bolder;
+	margin: auto;
 }
 
 #sec-hand {
