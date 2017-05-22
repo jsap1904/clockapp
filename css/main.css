@@ -2,6 +2,7 @@ body {
 	text-align: center;
 	font-family: 'Palanquin Dark', sans-serif;
 	background-image: url('../img/bg.jpg');
+	opacity: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -10,11 +11,11 @@ body {
 }
 
 h2 {
-	color: red;
+	color: black;
 }
 
 i {
-	color: black;
+	color: white;
 	font-family: 'Indie Flower', cursive;
 }
 
@@ -48,7 +49,7 @@ img {
 	width: var(--size);
 	height: var(--size);
 	background-image: url("../img/clock.jpg");
-	border: solid red;
+	border: solid grey;
 	border-radius: 50%;
 	box-shadow: 0 0 0 0 black;
 	position:relative;
@@ -62,7 +63,7 @@ img {
 #sec-hand {
 	width:1px;
 	height: 50%;
-	background-color: red;
+	background-color: black;
 	transform-origin:  50% 80%;
 	position: absolute;
 	top: 10%;
